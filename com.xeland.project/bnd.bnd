@@ -1,0 +1,11 @@
+-dsannotations: *
+-sub: *.bnd
+-plugin org.apache.felix.dm.annotation.plugin.bnd.AnnotationPlugin;log=debug
+-buildpath: \
+	org.apache.servicemix.bundles.junit;version=4.11.0.2,\
+	org.eclipse.jdt.annotation,\
+	org.apache.commons.lang3,\
+	slf4j.api;version=1.7.12,\
+	org.apache.felix.dependencymanager.annotation;version=4.0
+
+	

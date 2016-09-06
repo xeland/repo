@@ -1,0 +1,1 @@
+java -Xmx4096m -classpath .gradle/2.9/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain $*
